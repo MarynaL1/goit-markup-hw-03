@@ -405,12 +405,12 @@ margin-right: 0;
   color: var(--secondary-color);
   margin-top: 4px;
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 
 .menu-list{
   display: flex;
   justify-content: center;
-
 }
 
 .menu-item{
@@ -429,11 +429,12 @@ margin-bottom: 50px;
 .projects-item{
   height: 404px;
   width: 370px;
-  border: 1px solid #EEEEEE;
   margin-right: 30px;
   margin-top: 30px;
 }
-
+.projects-discription{
+border: 1px solid #EEEEEE;
+}
 .projects-item:nth-child(3n) {
   margin-right: 0;
 }
